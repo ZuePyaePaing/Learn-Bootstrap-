@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <title>Learn Bootstrap</title>
+  </head>
+  <body class="p-2" style="height: 6000px;">
+    <div
+      class="d-flex justify-content-around p-3 border border-3 border-primary"
+    >
+      <div class="p-5 bg-primary"></div>
+      <div class="p-5 bg-warning"></div>
+      <div class="p-5 bg-success"></div>
+    </div>
+    <hr />
+    <div class="border border-2 border-secondary rounded-2 p-3">
+      <h1 class="text-primary text-decoration-underline">Botton</h1>
+
+      <button class="btn btn-outline-primary text-danger fw-bold">
+        Click Me
+      </button>
+      <button class="btn btn-primary">Click Me</button>
+
+      <h2 class="text-decoration-underline text-warning my-2">Button Icon</h2>
+      <div class="btn-group">
+        <button class="btn btn-outline-primary active">
+          <i class="fa-solid fa-home fa-fw"></i>
+        </button>
+        <button class="btn btn-outline-success">
+          <i class="fa-solid fa-pencil fa-fw"></i>
+        </button>
+        <button class="btn btn-outline-danger">
+          <i class="fa-solid fa-trash fa-fw"></i>
+        </button>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-primary active">
+          <i class="bi bi-car-front fa-fw"></i>
+        </button>
+        <button class="btn btn-success">
+          <i class="fabi bi-share fa-fw"></i>
+        </button>
+        <button class="btn btn-danger">
+          <i class="bi bi-phone fa-fw"></i>
+        </button>
+      </div>
+    </div>
+    <hr />
+
+    <div class="p-3 border border-3 border-primary" style="height: 400px">
+      <h3 class="text-success text-decoration-underline mb-3">Image</h3>
+      <img src="./image/images (1).jpg" class="w-25 rounded rounded-4" alt="" />
+      <img
+        src="./image/images 2.jpg"
+        class="w-25 rounded rounded-pill"
+        alt=""
+      />
+      <img src="./image/images3.jpg" class="rounded-top" alt="" />
+    </div>
+    <div class="border border-3 my-3 p-3">
+      <img src="./image/images4.jpg" class="w-25 rounded rounded-4 float-start me-3"  alt="">
+      <p class="lh-sm text-muted fs-5 mt-2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+        consequuntur enim recusandae, nesciunt modi possimus, fuga repellendus
+        nobis ex, eos ipsa laudantium minima. Qui eius aperiam minima rerum,
+        nobis eveniet.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores harum doloremque consectetur assumenda animi magni odio sunt id eius consequuntur laudantium dolorum suscipit dolorem, numquam corporis laborum architecto est natus?
+      </p>
+      <div class="clear-foload"></div>
+    </div>
+    <div class="border border-3 p-3">
+      <h3 class="mb-3 text-decoration-underline text-info">Alert Component</h3>
+      <div class="alert alert-danger alert-dismissible ">
+        Don't touch button
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+      </div>
+      <div class="alert alert-success alert-dismissible ">
+        Don't touch button
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+      </div>
+      <div class="alert alert-warning alert-dismissible ">
+        Don't touch button
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+      </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
